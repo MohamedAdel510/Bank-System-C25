@@ -1,6 +1,6 @@
 #pragma once
 #include "Person.h"
-class Employee : Person
+class Employee : public Person
 {
 	double salary;
 public:

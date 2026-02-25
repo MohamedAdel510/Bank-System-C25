@@ -1,6 +1,6 @@
 #pragma once
 #include "Person.h"
-class Client : Person
+class Client : public Person
 {
 	double balance;
 
@@ -58,7 +58,7 @@ public:
 
 	void displayInfo() {
 		Person::displayInfo();
-		cout << "Salary:" << balance << endl;
+		cout << "Balance:" << balance << endl;
 	}
 };
 
